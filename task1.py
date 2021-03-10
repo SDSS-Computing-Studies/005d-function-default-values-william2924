@@ -19,6 +19,8 @@ assert sentence("Hiya","Casey","Have you enjoyed your meal") == "Hiya Casey. Hav
 (2 points) 
 """
 def sentence(greeting, name = "Benjamin", question = "How are you"):
+    greeting = input("Enter greeting: ")
     name = input("Enter name: ")
+    question = input("Enter question: ")
     output = greeting + " " + name + " " + question
     return output
