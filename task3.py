@@ -15,6 +15,5 @@ assert title() == "=========\n= Title =\n========="
 
 """
 def title(symbol="="):
-    return title == symbol*9+"\n"+symbol+"Title"+symbol+"\n"+symbol*9
-def title(symbol="*"):
-    return symbol*9+"\n"+symbol+"Title"+symbol+"\n"+symbol*9
+    output = symbol*9+"\n"+symbol+" Title "+symbol+"\n"+symbol*9
+    return output
