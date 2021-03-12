@@ -18,6 +18,6 @@ def multiplication(num,t=12):
     nth=0
     for i in range(t):
         nth=nth+1
-        nums=num*x
+        nums=num*nth
         list.append(t)
         return list
