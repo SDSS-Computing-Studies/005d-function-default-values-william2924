@@ -19,5 +19,5 @@ def multiplication(num,t=12):
     for i in range(t):
         nth=nth+1
         nums=num*nth
-        list.append(t)
-        return list
+        list.append(nums)
+    return list
