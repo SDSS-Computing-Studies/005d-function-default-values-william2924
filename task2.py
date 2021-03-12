@@ -14,10 +14,10 @@ assert multiplication(5) == [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60]
 assert multiplication(2,5) == [2, 4, 6, 8, 10]
 """
 def multiplication(num,t=12):
-    lst=[]
-    nth=0
+    list=[]
+    x=0
     for i in range(t):
-        nth=nth+1
-        nums=num*nth
-        lst.append(nums)
-        return lst
+        x=x+1
+        y=num*x
+        list.append(t)
+        return list
